@@ -12,3 +12,10 @@ app.use(bodyParser.urlencoded({
 extended : true
 }));
 
+
+
+
+
+app.listen(3000 , function() {
+    console.log("Server running at post 3000");
+});
